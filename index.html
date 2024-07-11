@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube-NoteBook</title>
+    <link rel="icon" href="fabicon.webp">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav_bar">
+       <div class="icon_link">
+        <a class="icon" href="https://www.youtube.com/"><i class="fa-brands fa-youtube" style="color: #fd2008;"></i> </a>
+        <a class="text" href="https://www.youtube.com/"><h4>YouTube<sup>IN</sup></h4> </a>
+      </div>
+      <div class="inpt">
+        <input id="inpt" value="" placeholder="Enter embed vedio link here" autocomplete="off">
+        <button class="enter">Enter</button>
+      </div>
+      <div class="changeMood"></div>
+    </nav>
+    <main>
+        <div class="vedio_container">
+        <div class="vedio">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/G0jO8kUrg-I?si=yCpiAKsDuSptmcR3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+            <div class="note-input">
+                <input class="note_text" value="" placeholder="Enter your note">
+                <button class="submit">OK</button>
+            </div>
+        </div>
+        <div class="my_note">
+           
+            <h1 class="hadding">My Notes</h1>
+           
+           <div class="para">
+              <!--adding paragraph-->
+        </div>
+        <i class="fa-solid fa-trash" style="color: #0f0f0f;"></i>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
